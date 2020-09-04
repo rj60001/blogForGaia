@@ -39,6 +39,7 @@
         > #content > div {
             background-color: rgba(0, 0, 0, 0) !important;
             backdrop-filter: blur(15px) !important;
+            -webkit-backdrop-filter: blur(15px);
             padding: 25px !important;
             font-weight: 500 !important;
             font-size: 2em !important;
