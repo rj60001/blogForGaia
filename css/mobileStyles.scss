@@ -1,0 +1,50 @@
+@import 'colors.scss';
+// Mobile
+@media only screen and (max-width: 800px) {
+    body {
+        font-size: 0.5em;
+        padding: 0px;
+    }
+
+    .title {
+        font-size: 4em;
+    }
+
+    .subtitle, .image, table, #footer {
+        font-size: 2.5em !important;
+    }
+
+    #homePage { 
+        > #featured {
+            grid-template-columns: 100vw 0vw;
+            grid-gap: 0vh;
+            grid-template-rows: 50vh;
+
+            > #smalls  {
+                display: none;     
+            }
+        }
+    }
+
+    #articlePage {
+        > #header, #content > .title {
+            padding: 25px;
+        }
+
+        > #header > div {
+            font-size: 1.5em;
+        }
+    
+        > #content > div {
+            background-color: rgba(0, 0, 0, 0) !important;
+            backdrop-filter: blur(15px) !important;
+            padding: 25px !important;
+            font-weight: 500 !important;
+            font-size: 2em !important;
+        }
+
+        > #footer {
+            color: $white;
+        }
+    }
+}

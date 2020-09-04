@@ -2,6 +2,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  margin: 0;
   background-color: white;
   color: black;
   font-family: "Roboto", sans-serif;
@@ -52,31 +53,15 @@ body {
   font-weight: 700;
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(5px);
-  background-color: #cdcdcd;
-  margin-left: -25px;
   position: absolute;
   top: 100%;
   left: 0px;
-  width: 100vw; }
+  width: 100%; }
   #footer > p > a {
     color: #22d422; }
 
 ::selection {
   background-color: #22d422;
   color: white; }
-
-@media only screen and (max-width: 800px) {
-  #homePage > #featured {
-    grid-template-columns: 90vw 0vw;
-    grid-gap: 0vh;
-    grid-template-rows: 50vh; }
-    #homePage > #featured > #smalls {
-      grid-template-rows: 0vh 0vh; }
-
-  .title {
-    font-size: 2em; }
-
-  .subtitle, #footer, .image, #articles > table, #footer {
-    font-size: 1.5em !important; } }
 
 /*# sourceMappingURL=generalStyles.css.map */
