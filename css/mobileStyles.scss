@@ -3,7 +3,7 @@
 @media only screen and (max-width: 800px) {
     body {
         font-size: 0.5em;
-        padding: 0px;
+        padding: 25px;
     }
 
     .title {
@@ -27,6 +27,7 @@
     }
 
     #articlePage {
+        margin: -25px;
         > #header, #content > .title {
             padding: 25px;
         }
