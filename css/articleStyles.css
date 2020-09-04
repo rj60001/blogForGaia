@@ -1,7 +1,9 @@
 #articlePage {
-  grid-template-rows: auto auto auto !important; }
+  grid-template-rows: auto auto auto !important;
+  margin: -25px; }
   #articlePage > #header {
-    grid-template-rows: auto; }
+    grid-template-rows: auto;
+    padding: 25px; }
     #articlePage > #header > div > a {
       display: inline;
       font-size: 1.5em;
@@ -16,16 +18,19 @@
       justify-self: center !important;
       color: white;
       text-align: center;
-      width: 96vw; }
+      width: 96vw;
+      padding: 25px; }
     #articlePage > #content > div {
-      background-color: rgba(255, 255, 255, 0.25);
-      backdrop-filter: blur(5px);
-      -webkit-backdrop-filter: blur(5px);
+      background-color: rgba(255, 255, 255, 0);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      padding: 0 20vw 0 20vw;
       color: white;
-      border-radius: 5px;
-      padding: 25px;
       font-weight: 700;
       font-size: 1.5em;
-      height: 300vh; }
+      height: 300vh;
+      width: 100%; }
+  #articlePage > #footer {
+    color: white; }
 
 /*# sourceMappingURL=articleStyles.css.map */
