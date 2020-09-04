@@ -1,0 +1,43 @@
+@import 'colors.scss';
+
+#articlePage {
+    grid-template-rows: auto auto auto !important;
+
+    > #header {
+        grid-template-rows: auto;
+        > div {
+            > a {
+                display: inline;
+                font-size: 1.5em;
+                font-weight: 700;
+                color: $white;
+            }
+    
+            > #back {
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    > #content {
+        grid-template-rows: auto auto !important;
+        > .title {
+            justify-self: center !important;
+            color: $white;
+            text-align: center;
+            width: 96vw;
+        }
+
+        > div {
+            background-color: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(5px);
+            color: $white;
+            border-radius: 5px;
+            padding: 25px;
+            font-weight: 700;
+            font-size: 1.5em;
+            height: 100vh;
+        }
+    }
+}

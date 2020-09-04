@@ -1,0 +1,36 @@
+#homePage {
+  grid-template-rows: auto auto auto auto !important; }
+  #homePage > #header {
+    grid-template-rows: auto auto; }
+  #homePage > #featured {
+    align-self: center;
+    text-align: center;
+    grid-template-columns: 50vw 45vw;
+    grid-template-rows: 100vh;
+    grid-gap: 2vh; }
+    #homePage > #featured > #smalls {
+      grid-template-columns: 100fr;
+      grid-template-rows: 60vh 38vh;
+      grid-gap: 2vh; }
+  #homePage > #articles {
+    grid-template-rows: auto auto; }
+    #homePage > #articles > a {
+      color: black !important; }
+    #homePage > #articles > table {
+      font-size: 2em;
+      font-weight: 700;
+      vertical-align: center;
+      border: none;
+      max-width: 100%;
+      color: rgba(0, 0, 0, 0.5); }
+
+tr:hover {
+  color: black;
+  cursor: pointer;
+  text-decoration: underline; }
+
+.dateColumn {
+  padding-left: 25px;
+  text-align: right; }
+
+/*# sourceMappingURL=homeStyles.css.map */

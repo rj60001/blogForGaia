@@ -1,0 +1,82 @@
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  padding: 25px;
+  overflow-x: hidden; }
+
+.title {
+  font-weight: 900;
+  font-size: 10em;
+  line-height: 1.1em; }
+
+.subtitle {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 5em;
+  line-height: 1.1em; }
+
+.image {
+  border-radius: 5px;
+  background-clip: border-box;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-weight: 700;
+  font-size: 5em;
+  line-height: 1.1em;
+  cursor: pointer;
+  box-shadow: 10px 10px 15px #cdcdcd;
+  text-shadow: 5px 5px 5px #000; }
+
+.image:hover {
+  box-shadow: 15px 15px 25px #cdcdcd; }
+
+.grid {
+  display: grid;
+  justify-content: left;
+  align-items: center;
+  grid-template-rows: auto;
+  grid-template-columns: auto; }
+
+#footer {
+  justify-content: center;
+  font-size: 2em;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  background-color: #cdcdcd;
+  margin-left: -25px;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 100vw; }
+  #footer > p > a {
+    color: #22d422; }
+
+::selection {
+  background-color: #22d422;
+  color: white; }
+
+@media only screen and (max-width: 800px) {
+  #homePage > #featured {
+    grid-template-columns: 90vw 0vw;
+    grid-gap: 0vh;
+    grid-template-rows: 50vh; }
+    #homePage > #featured > #smalls {
+      grid-template-rows: 0vh 0vh; }
+
+  .title {
+    font-size: 2em; }
+
+  .subtitle, #footer, .image, #articles > table, #footer {
+    font-size: 1.5em !important; } }
+
+/*# sourceMappingURL=generalStyles.css.map */
