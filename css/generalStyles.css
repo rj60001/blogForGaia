@@ -34,6 +34,7 @@ body {
   font-size: 5em;
   line-height: 1.1em;
   cursor: pointer;
+  margin: auto;
   box-shadow: 10px 10px 15px #cdcdcd;
   text-shadow: 5px 5px 5px #000; }
 
