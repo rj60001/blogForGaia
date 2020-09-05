@@ -7,6 +7,8 @@
     > #header {
         grid-template-rows: auto;
         padding: 25px;
+        text-shadow: 5px 5px 5px #000;
+        
         > div {
             > a {
                 display: inline;
@@ -28,8 +30,9 @@
             justify-self: center !important;
             color: $white;
             text-align: center;
-            width: 96vw;
+            width: 100vw;
             padding: 25px;
+            text-shadow: 5px 5px 5px #000;
         }
 
         > div {

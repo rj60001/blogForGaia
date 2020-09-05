@@ -3,7 +3,8 @@
   margin: -25px; }
   #articlePage > #header {
     grid-template-rows: auto;
-    padding: 25px; }
+    padding: 25px;
+    text-shadow: 5px 5px 5px #000; }
     #articlePage > #header > div > a {
       display: inline;
       font-size: 1.5em;
@@ -18,8 +19,9 @@
       justify-self: center !important;
       color: white;
       text-align: center;
-      width: 96vw;
-      padding: 25px; }
+      width: 100vw;
+      padding: 25px;
+      text-shadow: 5px 5px 5px #000; }
     #articlePage > #content > div {
       background-color: rgba(255, 255, 255, 0);
       backdrop-filter: blur(15px);
