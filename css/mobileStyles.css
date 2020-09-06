@@ -1,7 +1,6 @@
 @media only screen and (max-width: 800px) {
   body {
-    font-size: 0.5em;
-    padding: 25px; }
+    font-size: 0.5em; }
 
   .title {
     font-size: 4em; }
@@ -10,7 +9,7 @@
     font-size: 2.5em !important; }
 
   #homePage > #featured {
-    grid-template-columns: 100vw 0vw;
+    grid-template-columns: 100fr 0fr;
     grid-gap: 0vh;
     grid-template-rows: 50vh; }
     #homePage > #featured > #smalls {
@@ -20,6 +19,7 @@
     font-size: 1.5em; }
   #articlePage > #content > div {
     padding: 25px !important;
+    box-sizing: border-box;
     font-weight: 500 !important;
     font-size: 2em !important; } }
 

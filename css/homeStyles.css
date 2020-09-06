@@ -30,7 +30,8 @@ tr:hover {
   text-decoration: underline; }
 
 .dateColumn {
-  padding-left: 25px;
+  padding-left: 10px;
+  box-sizing: border-box;
   text-align: right; }
 
 /*# sourceMappingURL=homeStyles.css.map */

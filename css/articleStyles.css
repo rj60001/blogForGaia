@@ -4,6 +4,7 @@
   #articlePage > #header {
     grid-template-rows: auto;
     padding: 25px;
+    box-sizing: border-box;
     text-shadow: 5px 5px 5px #000; }
     #articlePage > #header > div > a {
       display: inline;
@@ -21,6 +22,7 @@
       text-align: center;
       width: 100vw;
       padding: 25px;
+      box-sizing: border-box;
       text-shadow: 5px 5px 5px #000; }
     #articlePage > #content > div {
       background-color: rgba(255, 255, 255, 0);
@@ -31,7 +33,7 @@
       font-weight: 700;
       font-size: 1.5em;
       height: 300vh;
-      width: 100%; }
+      box-sizing: border-box; }
   #articlePage > #footer {
     color: white; }
 

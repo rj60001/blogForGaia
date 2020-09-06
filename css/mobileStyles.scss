@@ -3,7 +3,6 @@
 @media only screen and (max-width: 800px) {
     body {
         font-size: 0.5em;
-        padding: 25px;
     }
 
     .title {
@@ -16,7 +15,7 @@
 
     #homePage { 
         > #featured {
-            grid-template-columns: 100vw 0vw;
+            grid-template-columns: 100fr 0fr;
             grid-gap: 0vh;
             grid-template-rows: 50vh;
 
@@ -34,6 +33,7 @@
     
         > #content > div {
             padding: 25px !important;
+            box-sizing: border-box;
             font-weight: 500 !important;
             font-size: 2em !important;
         }
