@@ -19,7 +19,6 @@
     #homePage > #articles > table {
       font-size: 2em;
       font-weight: 700;
-      vertical-align: center;
       border: none;
       max-width: 100%;
       color: rgba(0, 0, 0, 0.5); }

@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   body {
     font-size: 0.5em; }
 
@@ -7,6 +7,9 @@
 
   .subtitle, .image, table, #footer {
     font-size: 2.5em !important; }
+
+  .image > div > .readMoreTxt {
+    font-size: 0.5em !important; }
 
   #homePage > #featured {
     grid-template-columns: 100fr 0fr;
@@ -19,7 +22,6 @@
     font-size: 1.5em; }
   #articlePage > #content > div {
     padding: 25px !important;
-    box-sizing: border-box;
     font-weight: 500 !important;
     font-size: 2em !important; } }
 

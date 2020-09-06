@@ -4,12 +4,10 @@
   #articlePage > #header {
     grid-template-rows: auto;
     padding: 25px;
-    box-sizing: border-box;
     text-shadow: 5px 5px 5px #000; }
     #articlePage > #header > div > a {
       display: inline;
       font-size: 1.5em;
-      font-weight: 700;
       color: white; }
     #articlePage > #header > div > #back {
       cursor: pointer;
@@ -22,18 +20,15 @@
       text-align: center;
       width: 100vw;
       padding: 25px;
-      box-sizing: border-box;
       text-shadow: 5px 5px 5px #000; }
     #articlePage > #content > div {
-      background-color: rgba(255, 255, 255, 0);
+      background-color: rgba(255, 255, 255, 0.1);
       backdrop-filter: blur(15px);
       -webkit-backdrop-filter: blur(15px);
       padding: 0 20vw 0 20vw;
       color: white;
-      font-weight: 700;
       font-size: 1.5em;
-      height: 300vh;
-      box-sizing: border-box; }
+      height: 300vh; }
   #articlePage > #footer {
     color: white; }
 
